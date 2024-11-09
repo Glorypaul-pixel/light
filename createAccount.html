@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Account</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="createAccount">
+      <div class="createAccountImg">
+        <img src="./images/signUp.png" alt="Create Account" />
+      </div>
+      <div class="createAccountDetails">
+        <h1>Create your account</h1>
+        <form action="">
+          <div class="row">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              placeholder="input your email in here"
+              id="name"
+              required
+            />
+          </div>
+          <div class="row">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              placeholder="input your email in here"
+              id="email"
+              required
+            />
+          </div>
+          <div class="row">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="input your password in here"
+              required
+            />
+          </div>
+          <div class="row">
+            <label for="confirmPassword">Confirm Password</label>
+            <input
+              type="password"
+              id="confirmPassword"
+              placeholder="input your password in here"
+              required
+            />
+          </div>
+          <div class="terms">
+            <input
+              type="checkbox"
+              id="Terms"
+              placeholder="input your password in here"
+              required
+            />
+            <p>I have read and agree to the Terms of Service</p>
+          </div>
+
+          <div class="createAccount_btn">
+            <button type="submit">Create Account</button>
+          </div>
+
+          <h5 class="option">or</h5>
+
+          <div class="createAccount_google">
+            <button type="button">Sign up with Google</button>
+          </div>
+
+          <p class="signin">
+            Doesn't have an account?<a href="./index.html" class="signinLink">Sign in</a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

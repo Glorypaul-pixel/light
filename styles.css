@@ -1,0 +1,387 @@
+/* SIGN IN CONTENT */
+body {
+  background-color: #e5e5e5;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.signin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0;
+}
+.signinImg{
+  margin-left: 4rem;
+}
+.signinLink {
+  padding: 0 0 0 0.5rem;
+}
+.signinDetails {
+  background-color: white;
+  padding: 3rem;
+  width: 50%;
+}
+
+.signinDetails h1 {
+  padding-bottom: 2rem;
+  font-weight: 700;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+
+.row label {
+  padding-bottom: 0.4 rem;
+  font-weight: 600;
+  padding-left: 2rem;
+}
+
+.row input {
+  padding: 1rem;
+  border: 1px solid #ff7f00;
+  border-left: none;
+  border-radius: 0.5rem;
+}
+
+.signin_btn button {
+  color: white;
+  padding: 1rem;
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  background-color: #ff7f00;
+}
+.signin_btn p {
+  color: #9a9ab0;
+  padding: 0 0.5rem;
+}
+.signin_google button {
+  border-radius: 0.5rem;
+  padding: 1rem;
+  color: #ff7f00;
+  font-size: 1rem;
+  background-color: white;
+  width: 100%;
+  font-weight: 700;
+  border: solid 3px #ff7f00;
+}
+
+.signup {
+  padding-top: 1.5rem;
+}
+
+.signupLink {
+  color: #ff7f00;
+  font-weight: 700;
+}
+
+.signinDetails a {
+  text-decoration: none;
+}
+
+/* Create account styling */
+.createAccount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.createAccountDetails {
+  background-color: white;
+  padding: 3rem;
+  width: 30%;
+}
+
+.createAccountDetails h1 {
+  padding-bottom: 2rem;
+  font-weight: 700;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+
+.row label {
+  padding-bottom: 0.4rem;
+}
+
+.row input {
+  padding: 1rem;
+  border: 1px solid #ff7f00;
+  border-left: none;
+  border-radius: 0.5rem;
+}
+.terms {
+  display: flex;
+  justify-items: center;
+}
+#Terms {
+  display: none;
+}
+
+#Terms + p::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  border: 2px solid #ff7f00;
+  border-radius: 3px;
+  vertical-align: middle;
+  background-color: white;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.Terms p {
+  color: #9a9ab0;
+}
+/* Style for Create Account button */
+/* Create account styling */
+.createAccount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.createAccountDetails {
+  background-color: white;
+  padding: 3rem;
+  width: 30%;
+}
+
+.createAccountDetails h1 {
+  padding-bottom: 2rem;
+  font-weight: 700;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+
+.row label {
+  padding-bottom: 0.4rem;
+}
+
+.row input {
+  padding: 1rem;
+  border: 1px solid #ff7f00;
+  border-left: none;
+  border-radius: 0.5rem;
+}
+
+.terms {
+  display: flex;
+  align-items: center; /* Center vertically */
+  margin-top: 1rem;
+}
+
+#Terms {
+  display: none; /* Hide the default checkbox */
+}
+
+#Terms + p::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  border: 2px solid #ff7f00;
+  border-radius: 3px;
+  vertical-align: middle;
+  background-color: white;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* Active state when checkbox is checked */
+#Terms:checked + p::before {
+  background-color: #ff7f00; /* Change background when checked */
+  border-color: #ff7f00; /* Change border color when checked */
+}
+
+.Terms p {
+  color: #9a9ab0;
+}
+
+/* Style for Create Account button */
+.createAccount_btn button {
+  color: white;
+  padding: 1rem;
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  background-color: #ff7f00;
+}
+
+.createAccount_btn p {
+  color: #9a9ab0;
+}
+
+.option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.createAccount_google button {
+  border-radius: 0.5rem;
+  padding: 1rem;
+  color: #ff7f00;
+  font-size: 1rem;
+  background-color: white;
+  width: 100%;
+  font-weight: 700;
+  border: solid 3px #ff7f00;
+}
+
+.signup {
+  padding-top: 1.5rem;
+}
+
+.signinLink {
+  color: #ff7f00;
+  font-weight: 700;
+}
+
+.createAccountDetails a {
+  text-decoration: none;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.createAccount_btn,
+.createAccount_google {
+  width: 100%;
+}
+
+.option {
+  margin: 0;
+  padding: 0.5rem;
+  color: #9a9ab0;
+}
+
+/* Third Registration */
+.interest {
+  padding: 0.1rem 0;
+}
+#Interest {
+  display: none;
+}
+
+#Interest + p::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  border: 2px solid #ff7f00;
+  border-radius: 3px;
+  vertical-align: middle;
+  background-color: white;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.interest p {
+  color: #9a9ab0;
+}
+.option {
+  width: 30rem;
+}
+/* Company Profile */
+.profile {
+  display: flex;
+  gap: 10px;
+}
+.profileContent {
+  position: relative;
+  top: 15px;
+}
+.companyDescription {
+  margin: 3rem 0;
+}
+.browseBtn {
+  background-color: #ff8c00;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+/* Registration Complete */
+.regComplete {
+  display: flex;
+  justify-content: space-between;
+}
+.regCompleteImg {
+  width: 45%;
+  padding: 4rem;
+}
+.regCompleteImg h1 {
+  font-size: 40px;
+}
+.regCompleteContent {
+  display: flex;
+  justify-content: flex-start;
+  width: 55%;
+  background-color: #fff;
+  padding: 5rem;
+}
+.progress-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.stepInner {
+  width: 15px;
+  height: 15px;
+  background-color: #ff8c00;
+  border-radius: 45%;
+}
+
+.step {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: 2px solid #ff8c00;
+  border-radius: 50%;
+  padding: 0.4rem 0.1rem 0.1rem 0.4rem;
+}
+
+hr {
+  width: 5rem;
+  height: 0.1rem;
+  background-color: #ff7f00;
+  border: 2px solid #ff7f00;
+}
+
+.regCompleteContent h3 {
+  font-size: 30px;
+  /* padding: 1rem 0; */
+}
+.regComplete_btn {
+  background-color: #ff8c00;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 1.5rem;
+}
